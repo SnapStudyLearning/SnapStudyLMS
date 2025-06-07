@@ -1,1 +1,25 @@
-<!DOCTYPE html><html><head><title>Dashboard</title></head><body><h1>Snap Dashboard</h1><ul><li><a href='quiz.html'>📚 Take a Quiz</a></li><li><a href='leaderboard.html'>🏆 Leaderboard</a></li><li><a href='store.html'>🛒 Snap Store</a></li><li><a href='match.html'>🎮 Mini Game</a></li><li><a href='badges.html'>🎖️ Badges</a></li><li><a href='tips.html'>💡 Tips</a></li><li><button onclick='logout()'>Logout</button></li></ul><script src='https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js'></script><script src='https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js'></script><script src='firebase-config.js'></script><script src='auth.js'></script></body></html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - Snap Study</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Your Dashboard</h1>
+    <p>Choose where to go:</p>
+    <button onclick="location.href='quiz.html'">📚 Quiz</button>
+    <button onclick="location.href='store.html'">🛒 Snap Store</button>
+    <button onclick="location.href='leaderboard.html'">🏆 Leaderboard</button>
+    <button onclick="location.href='match.html'">🎮 Snap Match</button>
+    <button onclick="location.href='tips.html'">💡 Tips</button>
+    <button onclick="location.href='badges.html'">🎖️ Badges</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>

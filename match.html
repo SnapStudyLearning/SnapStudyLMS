@@ -3,20 +3,14 @@
 <html>
 <head>
   <title>Snap Match</title>
-  <link rel="stylesheet" href="match.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🎯 Snap Match</h1>
-  <p>Drag the word to its correct definition:</p>
-  <div class="row">
-    <div id="brave" class="word" draggable="true" ondragstart="drag(event)">brave</div>
-    <div id="huge" class="word" draggable="true" ondragstart="drag(event)">huge</div>
+  <div class="container">
+    <h1>🎯 Snap Match</h1>
+    <p>Match the word to its meaning:</p>
+    <div id="game-area">Coming soon!</div>
   </div>
-  <div class="row">
-    <div class="definition" data-word="brave" ondrop="drop(event)" ondragover="allowDrop(event)">showing courage</div>
-    <div class="definition" data-word="huge" ondrop="drop(event)" ondragover="allowDrop(event)">very big</div>
-  </div>
-  <p id="result"></p>
   <script src="match.js"></script>
 </body>
 </html>

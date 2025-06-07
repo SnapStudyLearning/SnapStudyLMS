@@ -1,1 +1,20 @@
-<!DOCTYPE html><html><head><title>Login</title></head><body><h1>Login to Snap Study</h1><input id='email' placeholder='Email'><br><input id='password' type='password' placeholder='Password'><br><button onclick='login()'>Login</button><script src='https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js'></script><script src='https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js'></script><script src='firebase-config.js'></script><script src='auth.js'></script></body></html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Snap Study</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Snap Study Login</h1>
+    <input type="email" id="email" placeholder="Email" style="padding:10px; width:90%; margin:10px 0;"><br>
+    <input type="password" id="password" placeholder="Password" style="padding:10px; width:90%; margin:10px 0;"><br>
+    <button onclick="login()">Login</button>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
