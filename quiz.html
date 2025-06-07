@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Year 6 Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <h1>🧠 Year 6 Quiz — Earn SnapCoins!</h1>
+  <div id="question-container"></div>
+  <button id="next-btn" onclick="nextQuestion()">Next</button>
+  <p id="score-display">Score: 0</p>
+  <audio id="correct-sound" src="snap_correct.mp3" preload="auto"></audio>
+  <audio id="wrong-sound" src="snap_wrong.mp3" preload="auto"></audio>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="quiz-goated.js"></script>
+</body>
+</html>

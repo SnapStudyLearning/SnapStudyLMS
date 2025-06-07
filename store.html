@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snap Store</title>
+  <link rel="stylesheet" href="store.css">
+</head>
+<body>
+  <h1>🛍️ Snap Store</h1>
+  <p>You have <span id="coins">0</span> SnapCoins</p>
+  <div class="store-item" onclick="buyItem('Wizard Hat', 20)">🧙 Wizard Hat — 20 Coins</div>
+  <div class="store-item" onclick="buyItem('Cool Glasses', 15)">🕶️ Cool Glasses — 15 Coins</div>
+  <p id="status"></p>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>

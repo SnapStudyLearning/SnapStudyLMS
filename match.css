@@ -1,0 +1,15 @@
+
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f0fff4;
+}
+.word, .definition {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  border: 2px dashed #888;
+  border-radius: 8px;
+  background: white;
+  width: 150px;
+}
